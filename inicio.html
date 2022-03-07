@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="registrardatos.php" method="post">
+
+        Ingrese su nombre:
+        
+        <input type="text" name="nombre" size="30"><br>
+        
+        Ingrese su sección:
+        
+        <br>
+
+        <input type="radio" name="estudios" value="1">12-1<br>
+
+        <input type="radio" name="estudios" value="2">12-2<br>
+
+        <input type="radio" name="estudios" value="3">12-3<br>
+
+        <input type="radio" name="estudios" value="4">12-4<br>
+
+        Seleccione su especialidad:
+
+        <select name="especialidad">
+
+            <option value="1">Electrónica Industrial</option>
+
+            <option value="2">Infromática en Desarrollo de Software</option>
+
+            <option value="3">Ejecutivo para Centros de Servicio</option>
+
+            <option value="4">Contabiliad</option>
+
+            <option value="5">Administración Logística</option>
+
+            <option value="7">Informática Empresarial</option>
+
+        </select>
+        <br>
+        Seleccione en que parte de heredia vive:<br>
+
+        <select name="Cantones[]" size="4" multiple>
+
+        <option value="1">Heredia Centro</option>
+
+        <option value="2">Mercedes</option>
+
+        <option value="3">San Joaquin</option>
+
+        <option value="4">San Roque</option>
+
+        <option value="5">San Lorenzo</option>
+
+        <option value="6">Barva</option>
+
+        <option value="7">San Isidro</option>
+
+        <option value="8">Fátima</option>
+
+        </select>
+        <br>
+        <a href="index.html">
+            <input type="button" value="Enviar">
+        </a>
+        
+    </form>
+</body>
+</html>
